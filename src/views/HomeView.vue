@@ -130,6 +130,10 @@
             </div>
             <input type="text" name="search" id="search" class="block !text-base w-full rounded-md border-0 py-2 px-6 pl-9 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-500 transition duration-300 ease-in-out sm:text-sm sm:leading-6" placeholder="Search">
           </div>
+          
+          <div class="relative w-full max-w-md" id="smartwidget">
+            
+          </div>
 
         </div>
         <div class="mt-6 overflow-hidden border-t border-gray-100">
