@@ -125,7 +125,7 @@
           <h2 class="mx-auto max-w-2xl text-lg font-semibold leading-6 text-gray-900 lg:mx-0 lg:max-w-none">Recent activity</h2>
           
           <div class="relative w-full max-w-md" id="smartwidget">
-            
+            <div id="inside"></div>
           </div>
 
         </div>
