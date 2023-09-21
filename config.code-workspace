@@ -1,0 +1,52 @@
+{
+  "folders": [{
+    "path": "."
+  }],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/bin": true,
+      "**/lib": true,
+      "**/tests": true,
+      "**/node_modules": true,
+      "**/package-lock.json": true,
+      "**/.gitignore": true,
+      "**/yarn.lock": true,
+      "**/.browserslistrc": true,
+      "**/.vscode": true,
+      "**/server.php": true,
+      "**/phpunit.xml": true,
+      "**/artisan": true,
+      "**/.styleci.yml": true,
+      "**/.gitattributes": true,
+      "**/.env.example": true,
+      "vendor": true,
+      "**/config": false,
+      "**/bootstrap": true,
+      "**/.editorconfig": true,
+      "**/please": true,
+
+      "**/README.md": true,
+      "**/database": true,
+      "**/.github": true,
+      "**/users": true,
+      "**/webpack.mix.js": false,
+      "**/routes": false,
+      "**/.antlers.json": true,
+      "**/storage": true,
+
+      "**/composer.lock": true,
+      "**/composer.json": true,
+      "**/package.json": false,
+      
+      "**/public/assets": true,
+      "**/public/fonts": false,
+
+      "postcss.config.cjs": true,
+    }
+  }
+}
