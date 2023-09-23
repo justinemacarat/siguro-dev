@@ -12,21 +12,18 @@
     <script type="module" src="/src/main.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.10.4/dist/cdn.min.js"></script>
 
+    <!-- Chameleon.io Script -->
     <script>
-      /* Chameleon script. See trychameleon.com */
 
-      !function(d,w){var t="SsW1n4cqOpp0ZFNrKTBuBXj70s4QGrXBEjC1Ytx187B6u4-1MzRTl-DcnnykcMWKNVvXLF",c="chmln",m="identify alias track clear set show on off custom help _data".split(" "),i=d.createElement("script");if(w[c]||(w[c]={}),!w[c].root){w[c].accountToken=t,w[c].location=w.location.href.toString(),w[c].now=new Date;for(var s=0;s<m.length;s++){!function(){var t=w[c][m[s]+"_a"]=[];w[c][m[s]]=function(){t.push(arguments);};}();}i.src="https://fast.trychameleon.com/messo/"+t+"/messo.min.js",i.async=!0,d.head.appendChild(i);}}(document,window);
-      /* trychameleon.com user identification and data */
+      !function(d,w){var t="ST6srNyIit6ze06FXblGypWGUF3X1iCRbX6I659R4l7sSo-1QsQ1j-EzNAMDHfwRjbLUVo",c="chmln",i=d.createElement("script");if(w[c]||(w[c]={}),!w[c].root){w[c].accountToken=t,w[c].location=w.location.href.toString(),w[c].now=new Date,w[c].fastUrl='https://fast.chameleon.io/';var m="identify alias track clear set show on off custom help _data".split(" ");for(var s=0;s<m.length;s++){!function(){var t=w[c][m[s]+"_a"]=[];w[c][m[s]]=function(){t.push(arguments);};}();}i.src=w[c].fastUrl+"messo/"+t+"/messo.min.js",i.async=!0,d.head.appendChild(i);}}(document,window);
 
-      // IMPORTANT: Replace USER.ID_IN_DB, USER.EMAIL, USER.FULL_NAME below with your app's actual variable names.
 
-      chmln.identify(1323132131, {   // REQUIRED, the unique ID of each user in your database (e.g. 23443 or "690b80e5f433ea81b96c9bf6")
+      chmln.identify(0001, {
+          email: "fakeuser@yahoo.co.uk",
+          name: "Fakey McUser",
       })
 
-      chmln.on('app:navigate', (opts) => {
-        
-      });
+	</script>
 
-    </script>
   </body>
 </html>

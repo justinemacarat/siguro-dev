@@ -81,7 +81,7 @@
           <div class="order-last flex w-full gap-x-8 text-sm font-semibold leading-6 sm:order-none sm:w-auto sm:border-l sm:border-gray-200 sm:pl-6 sm:leading-7">
             <a href="#" class="text-primary-500">Last 7 days</a>
             <a href="#" class="text-gray-700">Last 30 days</a>
-            <a href="#" class="text-gray-700">All-time</a>
+            <a href="/help/creating-international-payments/" class="text-gray-700">All-time</a>
           </div>
           <a href="#" class="ml-auto flex items-center gap-x-1 rounded-md bg-primary-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500">
             <svg class="-ml-1.5 h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
