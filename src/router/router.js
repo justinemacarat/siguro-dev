@@ -9,7 +9,7 @@ const routes = [
     component: Home,
   },
   {
-    path: "/help/creating-international-payments",
+    path: "/creating-international-payments",
     name: "help",
     component: Help,
   }
