@@ -40,6 +40,13 @@ module.exports = {
         //   950: '#000000'
         // },
         gray: colors.neutral,
+        'beige': {
+          DEFAULT: '#F7F5F0',
+          '100': '#E6E0D2',
+          '200': '#B3A380'
+        },
+        darkGreen: "#0B2421",
+        mintGreen: "#C5E0BF",
       },
     },
   },

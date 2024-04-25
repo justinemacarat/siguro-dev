@@ -2,14 +2,6 @@
 
 export default {
   data() {
-    return {
-      emails: [
-        { location: "Lakeside", email: "lakeside@aquaparkgroup.co.uk" },
-        { location: "Rutland", email: "rutland@aquaparkgroup.co.uk" },
-        { location: "Cardiff", email: "cardiff@aquaparkgroup.co.uk" },
-        { location: "Group", email: "lakeside@aquaparkgroup.co.uk" },
-      ],
-    };
   },
   components: {
   },
@@ -17,7 +9,15 @@ export default {
 </script>
 
 <template>
-  <footer class="bg-dark-blue text-center lg:text-left">
-
+  <footer>
+    <div class="grid md:grid-cols-2 gap-16 w-full text-white px-16 py-8">
+      <div class="flex space-x-28">
+        <p class="text-sm text-white/50">© 2024 Quarterlands Farm</p>
+        <p class="text-sm text-white/50">Website by Siguro</p>
+      </div>
+      <div>
+        <p class="text-sm text-white/50 text-right">Back to top</p>
+      </div>
+    </div>
   </footer>
 </template>
