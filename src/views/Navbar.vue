@@ -1,9 +1,9 @@
 <template>
     <nav class="bg-transparent w-full z-20 top-0 start-0">
         <div class="w-full max-w-7xl mx-auto p-4 flex flex-wrap items-center justify-between">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3">
+            <a href="#" class="flex items-center space-x-3">
                 <img src="@/assets/navlogo.svg" class="h-8" >
-                <span class="self-center text-2xl font-semibold whitespace-nowrap site-name">Quarterlands Farm</span>
+                <span class="self-center text-2xl text-darkGreen font-semibold whitespace-nowrap site-name">Quarterlands Farm</span>
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0">
                 <button type="button" class="text-white bg-darkGreen font-medium text-sm px-8 py-3 text-center">Register Interest</button>
